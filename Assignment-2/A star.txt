@@ -1,0 +1,11 @@
+Initial state : No queens are placed in any row i.e, empty vector
+
+State space : Each queen can be placed in any row of a particular column, since no two queens are allowed in the same column. So number of states = 8^8
+
+State transition operators : A new queen can be placed in anyone of the rows (from 0 to 7) of a column (0-index based rows and colums)
+
+Goal state : All queens are at non-attacking positions
+
+Cost : Cost of a final goal depends on the number of steps it took to reach it
+
+Heuristic : Here I have taken the heuristic of a state to be 8 - (column index of currently placed queen)
