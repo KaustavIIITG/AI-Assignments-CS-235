@@ -1,0 +1,12 @@
+Encoding         : Assigning each student into either of 3 classes (1, 2, 3) i.e 3 groups
+
+Gene             : A list of random weights of given number of students between 40 to 80
+
+Population       : A given number of collection of genes
+
+Fitness function : Average of the variance of the three classes
+
+Crossover        : Single-point crossover with randomly deciding the index/point
+
+Mutation         : Randomly checking whether to do mutation, and if turns up true then randomly picking up an index to mutate
+
